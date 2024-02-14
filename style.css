@@ -1,0 +1,403 @@
+/*Website Built By Chance Grandy*/
+/*----------2023-04-06----------*/
+
+/*Font CSS*/
+:root {
+    --bs-font-sans-serif: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html {
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, .navbar, .button {
+    font-family: Impact;
+    color: #edf2f4;
+}
+.bold, .nav-link:hover, .navbar-brand:hover {
+    color: #ef233c;
+}
+/*Nav CSS*/
+.navbar-brand, .nav-link, p, label {
+    color: #edf2f4;
+}
+header {
+    box-shadow: 0 5px 5px #1d1e2c;
+    margin-bottom: 4rem;
+}
+.icon {
+    width: 5%;
+    margin-right: 15px;
+}
+.active {
+    color: #ef233c !important;
+}
+/*Body CSS*/
+main {
+    flex: 1 0 auto;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #2b2d42;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.redborder {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ef233c;
+}
+.textbox {
+    padding: 2rem;
+    margin-left: 20%;
+    width: 70%;
+    margin-top: 15%;
+}
+.harley {
+    width: 60%;
+    margin-left: 20%;
+}
+.button {
+    background-color: #ef233c;
+    color: #edf2f4;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 1rem;
+}
+
+/*Social Links CSS*/
+.socialIcon {
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.socialCenter {
+    display: none;
+}
+.socialContent {
+    margin-top: 113px;
+    margin-bottom: 43px;
+}
+.socialLeft {
+    position:fixed;
+    transform: translateY(-52%);
+}
+.socialRight {
+    position:fixed;
+    transform: translateY(-52%);
+}
+.leftVertical {
+    border-right: 2px solid #edf2f4;
+    height: 40px;
+    transform: translateX(-49%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightVertical {
+    border-left: 2px solid #edf2f4;
+    height: 40px;
+    transform: translateX(49%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rotate {
+    transform: rotate(-90deg) translateX(23%);
+}
+.email {
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+/*Projects CSS*/
+.project {
+    position: relative;
+    margin: 2rem 10% 2rem 3.8%;
+    width: 90%;
+}
+.project a {
+    width: 100%;
+    height: 100%;
+}
+.projectImage {
+    margin: 2rem 0 0 30%;
+    height: 85%;
+    opacity: 0.4;
+}
+.projectImage:hover {
+    opacity: 1;
+}
+.projectText {
+    margin: 3rem 30% 0 5%;
+    height: 75%;
+    width: 70%;
+    padding: 1rem;
+}
+/*Skills CSS*/
+.skills {
+    margin: 0 10% 0 10%;
+}
+.skillsCenter {
+    margin: 5.5%;
+    padding: 2%;
+}
+.skillsLeft {
+    margin: 5.5% 0 5.5% 11%;
+    padding: 2%;
+}
+.skillsRight {
+    margin: 5.5% 11% 5.5% 0%;
+    padding: 2%;
+}
+
+/*Footer CSS*/
+footer {
+    flex-shrink: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.divide {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #edf2f4; 
+    line-height: 0.1em;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+span { 
+    background:#2b2d42;
+    padding: 20px;
+    color:#edf2f4; 
+}
+/*Viewport CSS*/
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .textbox {
+        margin-left: 15%;
+        margin-top: 10%;
+        height: 80%;
+        width: 80%;
+    }
+    .harley {
+        width: 60%;
+        margin-left: 25%;
+    }
+    .projectText {
+        margin: 3rem 30% 0 5%;
+        height: 75%;
+        width: 70%;
+        padding: 1rem;
+    }
+    .projectImage {
+        margin: 2rem 0 0 30%;
+        width: 355px;
+    }
+}
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+    .textbox {
+        margin-left: 10%;
+        margin-top: 15%;
+        height: 75%;
+        width: 100%;
+    }
+    .harley {
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .skills {
+        margin: 0 5% 0 5%;
+    }
+    .projectText {
+        margin: 3rem 0 0 5%;
+        height: 75%;
+        width: 85%;
+        padding: 1rem;
+    }
+    .projectImage {
+        margin: 2rem 0 0 11%;
+        width: 355px;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1050px) {
+    .textbox {
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 80%;
+        width: 100%;
+    }
+    .harley {
+        height: 80%;
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .socialLeft, .socialRight, .icon {
+        display: none;
+    }
+    .socialCenter {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 2rem;
+        height: 40px;
+    }
+    .socialIconMiddle {
+        padding: 5px;
+        margin: 0 8.7% 0 8.7%;
+        width: 7%;
+    }
+    .project {
+        margin: 2rem 2% 2rem 2%;
+        width: 100%;
+    }
+    .projectImage {
+        margin: 2rem 0% 0 0%;
+        width: 100%;
+        height: 85%;
+        transform: translateX(-15%);
+    }
+    .projectText {
+        margin: 3rem 0% 0 0%;
+        height: 75%;
+        width: 120%;
+        padding: 1rem;
+        transform: translateX(-11%);
+    }
+    .skills {
+        margin: 0 5% 0 5%;
+        width: 90%;
+    }
+    .skillsLeft {
+        margin-left: 0;
+    }
+    .skillsleft, .skillsRight, .skillsCenter {
+        width: 90%;
+        margin: 5.5% 0 5.5% 0;
+    }
+    footer {
+        margin-top: 3rem;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 770px) {
+    .textbox {
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 90%;
+        width: 100%;
+    }
+    .harley {
+        height: 80%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+        margin-top: 5%;
+    }
+    .socialLeft, .socialRight, .icon {
+        display: none;
+    }
+    .socialCenter {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 40px;
+    }
+    .socialIconMiddle {
+        text-decoration: none;
+        padding: 5px;
+        margin: 0 8.7% 0 8.7%;
+        width: 7%;
+    }
+    .project {
+        margin: 2rem 0% 2rem 0%;
+        width: 100%;
+    }
+    .projectImage {
+        margin: 2rem 10% 0 10%;
+        width: 80%;
+        height: 85%;
+    }
+    .projectText {
+        margin: 3rem 0% 0 0%;
+        height: 75%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .skills {
+        margin: 0 2% 0 2%;
+    }
+    .skillsLeft {
+        margin-left: 0;
+    }
+    .skillsleft, .skillsRight, .skillsCenter {
+        margin: 5.5% 0% 5.5% 0;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .textbox {
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 90%;
+        width: 100%;
+    }
+    .harley {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 80%;
+        width: 70%;
+        margin-top: 5%;
+    }
+    .socialLeft, .socialRight, .icon {
+        display: none;
+    }
+    .socialCenter {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 40px;
+    }
+    .socialIconMiddle {
+        padding: 5px;
+        margin: 0 7% 0 7%;
+        width: 10%;
+    }
+    .project {
+        margin: 2rem 0% 2rem 0%;
+        width: 100%;
+    }
+    .projectImage {
+        margin: 2rem 10% 0 10%;
+        width: 80%;
+        height: 85%;
+    }
+    .projectText {
+        margin: 3rem 0% 0 0%;
+        height: 85%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .skills {
+        margin: 0 2% 0 2%;
+    }
+    .skillsLeft {
+        margin-left: 0;
+    }
+    .skillsleft, .skillsRight, .skillsCenter {
+        margin: 5.5% 0% 5.5% 0;
+    }
+    footer {
+        margin-top: 3rem;
+    }
+}

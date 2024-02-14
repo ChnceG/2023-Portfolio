@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
-                            <a href="index.html" class="nav-link active" aria-current="page" >home</a>
+                            <a href="index.html" class="nav-link" >home</a>
                         </li>
                         <li class="nav-item px-3">
                             <a href="projects.html" class="nav-link">projects</a>
@@ -32,14 +32,14 @@
                             <a href="skills.html" class="nav-link">skills</a>
                             </li>
                         <li class="nav-item px-3">
-                            <a href="contact.html" class="nav-link">contact</a>
+                            <a href="contact.html" class="nav-link active" aria-current="page">contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-1 position-fixed top-50 start-0">
@@ -53,57 +53,54 @@
                         <div class="leftVertical"></div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="textbox redborder">
-                        <p class="fs-4">
-                            Hey, my name's Chance
-                        </p>
-                        <p class="fs-4">
-                            I'm a student at NSCC and an <i><b class="bold">aspiring developer</b></i>
-                        </p>
-                        <p class="fs-4">
-                            I'm looking for <i><b class="bold">job opportunities</b></i> to help further my learning
-                        </p>
-                        <div class="text-center">
-                            <button type="button" href="mailto:cbgrandy@gmail.com" class="button fs-4">Contact Me</button>
-                        </div>
-                            <p class="fs-5">
-                            ...and yes, that is my dog. His name is Harley
-                        </p>
+            <!-- Contact Box -->
+            <div class="redborder contactbox">
+                <h1 class="fs-3 text-center bold mt-1">Contact Me</h1>
+                <form action="mailto:cbgrandy@gmail.com" method="post" enctype="text/plain" class="flex">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
                     </div>
-                </div>
-                <div class="col-md">
-                    <img src="images/harley_full.jpg" alt="Harley" class="harley redborder">
-                </div>
-                <div class="col-md-1 position-fixed top-50 end-0">
-                    <div class="socialRight">
-                        <div class="rightVertical"></div>
-                        <div>
-                            <a href="https://github.com/ChnceG" target="_blank">
-                                <img src="images/git.png" alt="github_icon" class="socialIcon">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://www.linkedin.com/in/chnceg/" target="_blank">
-                                <img src="images/linked.png" alt="linkedin_icon" class="socialIcon">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://twitter.com/Chance_Grandy" target="_blank">
-                                <img src="images/twitter.png" alt="twitter_icon" class="socialIcon">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://www.instagram.com/chancegr30/" target="_blank">
-                                <img src="images/instagram.png" alt="instagram_icon" class="socialIcon">
-                            </a>
-                        </div>
-                        <div class="rightVertical"></div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="button fs-4">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1 position-fixed top-50 end-0">
+                <div class="socialRight">
+                    <div class="rightVertical"></div>
+                    <div>
+                        <a href="https://github.com/ChnceG" target="_blank">
+                            <img src="images/git.png" alt="github_icon" class="socialIcon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/chnceg/" target="_blank">
+                            <img src="images/linked.png" alt="linkedin_icon" class="socialIcon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/Chance_Grandy" target="_blank">
+                            <img src="images/twitter.png" alt="twitter_icon" class="socialIcon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/chancegr30/" target="_blank">
+                            <img src="images/instagram.png" alt="instagram_icon" class="socialIcon">
+                        </a>
+                    </div>
+                    <div class="rightVertical"></div>
                 </div>
             </div>
         </div>
-        
         <div class="container">
             <div class="socialCenter">
                 <div class="col-md">

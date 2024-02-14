@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Admin </title>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hospital.css">
+    </head>
+    <body>
+        <header>
+            <a href="homepage.html">
+                <img id="logosmall" src="hospitallogo.png" ALT="Hospital Logo">
+                <img id="logolong" src="hospitallogolong.png" ALT="Hospital Logo big">
+            </a>
+            <nav>
+                <a href="Admin.html" class="nav">Admin</a>
+                <a href="homepage.html" class="nav">Home</a>
+                <a href="Doctors.html" class="nav">Doctors</a>
+                <a href="Departments.html" class="nav">Departments</a>
+                <a href="Login.html" class="nav">Login</a>
+            </nav>
+        </header>
+        <div>
+            <div class="textbox">
+                <h2 class="center"> New Leaf Hospital Administrative Page </h2>
+                <h3 class=center>** Authorized Personnel Only **</h3>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li> <a class="links" href="#PatReg"><b>Regular Patients</b></a><br> </li>
+                        <li> <a class="links" href="#PatAdmit"><b>Admitted Patients</b></a><br> </li>
+                        <li> <a class="links" href="#Checkup"><b>Checkup History</b></a><br> </li>
+                        <li> <a class="links" href="#PatOpr"><b>Operation History</b></a><br> </li>
+                        <li> <a class="links" href="#PatDisch"><b>Discharged Patients</b></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="textbox">
+                <h3 id="PatReg"> Regular Patients </h3>
+                <table class="tableflex">
+                    <tr>
+                        <th>Patient ID</th>
+                        <td>PT002</td>
+                        <td>PT002</td>
+                        <td>PT002</td>                
+                    </tr>
+                    <tr>
+                        <th>Date Of Visit</th>
+                        <td>2022-09-10</td>
+                        <td>2022-10-10</td>
+                        <td>2022-11-10</td>
+                    </tr>
+                    <tr>
+                        <th>Diagnosis</th>
+                        <td>Blood Donor</td>
+                        <td>Blood Donor</td>
+                        <td>Blood Donor</td>             
+                    </tr>
+                    <tr>
+                        <th>Treatment</th>
+                        <td>No Treatment</td>
+                        <td>No Treatment</td>
+                        <td>No Treatment</td>
+                    </tr>
+                    <tr>
+                        <th>Recommended Meds</th>
+                        <td>Vitamins</td>
+                        <td>Vitamins</td>
+                        <td>Vitamins</td>
+                    </tr>
+                    <tr>
+                        <th>Status of Treatment</th>
+                        <td>No Treatment</td>
+                        <td>No Treatment</td>
+                        <td>No Treatment</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="textbox">
+                <h3 id="PatAdmit"> Admitted Patients </h3>
+                <table>
+                    <tr>
+                        <th>Patient ID</th>
+                        <td>PT001</td>
+                    </tr>
+                    <tr>
+                        <th>Room Number</th>
+                        <td>101</td>
+                    </tr>
+                    <tr>
+                        <th>Department Name</th>
+                        <td>Operations</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Admission</th>
+                        <td>2022-11-11</td>
+                    </tr>
+                    <tr>
+                        <th>Doctor ID</th>
+                        <td>DR002</td>
+                    </tr>
+                    <tr>
+                        <th>Attendant Name</th>
+                        <td>Chad Burchill</td>
+                    </tr>
+                    <tr>
+                        <th>Initial Condition</th>
+                        <td>Broken Ankle</td>
+                    </tr>
+                    <tr>
+                        <th>Diagnosis</th>
+                        <td>Complex Ankle Fracture</td>
+                    </tr>
+                    <tr>
+                        <th>Treatment</th>
+                        <td>Surgery</td>
+                    </tr>
+                    <tr>
+                        <th>Payment Due</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Mode of Payment</th>
+                        <td>No charge</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="textbox">
+                <h3 id="Checkup"> Check up History </h3>
+                <table>
+                    <tr>
+                        <th>Patient ID</th>
+                        <td>PT001</td>
+                    </tr>
+                    <tr>
+                        <th>Doctor ID</th>
+                        <td>DR002</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Check up</th>
+                        <td>2022-11-14</td>
+                    </tr>
+                    <tr>
+                        <th>Patient Referral</th>
+                        <td>Physio</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="textbox">
+                <h3 id="PatOpr"> Operation History </h3>
+                <table>
+                    <tr>
+                        <th>Patient ID</th>
+                        <td>PT001</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Admission</th> 
+                        <td>2022-11-11</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Operation</th>
+                        <td>2022-11-12</td>
+                    </tr>
+                    <tr>
+                        <th>Doctor ID</th>
+                        <td>DR002</td>
+                    </tr>
+                    <tr>
+                        <th>Department Name</th>
+                        <td>Operations</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="textbox">
+                <h3 class="PatDisch"> Discharge History </h3>
+                <table>
+                    <tr>
+                        <th>Patient ID</th>
+                        <td>PT001</td>
+                    </tr>
+                    <tr>
+                        <th>Treatment Given</th>
+                        <td>Ankle Surgery</td>
+                    </tr>
+                    <tr>
+                            <th>Treatment Advice</th>
+                            <td>6 weeks off ankle</td>
+                    </tr>
+                    <tr>
+                        <th>Payment Made</th>
+                        <td>$0</td>
+                    </tr>
+                    <tr>
+                        <th>Mode of Payment</th>
+                        <td>No charge</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Discharge</th>
+                        <td>2022-11-12</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div>
+            <p>
+                <a href="" class="footernav">Privacy Policy</a> 
+                <a href="" class="footernav">Terms & Conditions</a>
+            </p>
+        </div>
+        <div>
+            <p class="footersplit">
+                New Leaf Hospital&trade; as well as our logo are trademarks of the New Leaf Foundation of Medical Health, Education and Research.<br>
+                &copy; 2022-2022 New Leaf Foundation of Medical Health, Education and Research, All rights reserved.
+            </p>
+        </div>
+    </footer>
+</html>

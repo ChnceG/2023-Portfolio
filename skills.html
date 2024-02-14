@@ -23,14 +23,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
-                            <a href="index.html" class="nav-link active" aria-current="page" >home</a>
+                            <a class="nav-link" href="index.html">home</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a href="projects.html" class="nav-link">projects</a>
+                            <a class="nav-link" href="projects.html">projects</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a href="skills.html" class="nav-link">skills</a>
-                            </li>
+                            <a class="nav-link active" aria-current="page">skills</a>
+                        </li>
                         <li class="nav-item px-3">
                             <a href="contact.html" class="nav-link">contact</a>
                         </li>
@@ -40,8 +40,16 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
+        <div>
+            <h1 class="fs-3 text-center bold">
+                My Skills
+            </h1>
+            <p class="fs-4 text-center">
+                Currently my skills are listed below. I am always learning and adding to the list <br>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row skills">
                 <div class="col-md-1 position-fixed top-50 start-0">
                     <div class="socialLeft">
                         <div class="leftVertical"></div>
@@ -52,28 +60,33 @@
                         </div>
                         <div class="leftVertical"></div>
                     </div>
+                </div>                
+                <div class="col-md redborder skillsLeft">
+                    <h2 class="fs-3 text-center bold">
+                        Programming
+                    </h2>
+                    <p class="fs-4 text-center">
+                        TypeScript, Java, C, React
+                        <br>HTML/CS, Node C#, C++
+                        <br>MySQL, PHP
+                    </p>
                 </div>
-                <div class="col-md">
-                    <div class="textbox redborder">
-                        <p class="fs-4">
-                            Hey, my name's Chance
-                        </p>
-                        <p class="fs-4">
-                            I'm a student at NSCC and an <i><b class="bold">aspiring developer</b></i>
-                        </p>
-                        <p class="fs-4">
-                            I'm looking for <i><b class="bold">job opportunities</b></i> to help further my learning
-                        </p>
-                        <div class="text-center">
-                            <button type="button" href="mailto:cbgrandy@gmail.com" class="button fs-4">Contact Me</button>
-                        </div>
-                            <p class="fs-5">
-                            ...and yes, that is my dog. His name is Harley
-                        </p>
-                    </div>
+                <div class="col-md redborder skillsCenter">
+                    <h2 class="fs-3 text-center bold">
+                        Software
+                    </h2>
+                    <p class="fs-4 text-center">
+                        MS SQL, XAMPP, Figma
+                        <br>Postman, SSH, Fork
+                    </p>
                 </div>
-                <div class="col-md">
-                    <img src="images/harley_full.jpg" alt="Harley" class="harley redborder">
+                <div class="col-md redborder skillsRight">
+                    <h2 class="fs-3 text-center bold">
+                        OS
+                    </h2>
+                    <p class="fs-4 text-center">
+                        Linux (Bash), Windows (Powershell, Batch)
+                    </p>
                 </div>
                 <div class="col-md-1 position-fixed top-50 end-0">
                     <div class="socialRight">
@@ -103,7 +116,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="container">
             <div class="socialCenter">
                 <div class="col-md">
